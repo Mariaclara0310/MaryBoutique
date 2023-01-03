@@ -272,8 +272,6 @@ p {
 	background-attachment: fixed;
 	margin-bottom: 60px;
 	
-	
-
 }
 
 .separador p {
@@ -317,7 +315,7 @@ p {
 .redes-sociales {
 	padding: 10px;
 	background-color: var(--purple-light);
-	color: #f3f3f3;
+	
 }
 
 .redes-sociales img {
