@@ -1,0 +1,26 @@
+{
+  "name": "maryboutique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariaclara0310/MaryBoutique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariaclara0310/MaryBoutique/issues"
+  },
+  "homepage": "https://github.com/Mariaclara0310/MaryBoutique#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
