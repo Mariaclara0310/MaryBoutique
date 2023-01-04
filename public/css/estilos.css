@@ -37,9 +37,10 @@ p {
 	height: 100vh;
 	background-image: url(/img/Mary\ \(2\).gif);
 	background-position: center;
-	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
 	
 .contenido-header .fondo {
 	width: 0%;
