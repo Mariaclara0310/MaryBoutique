@@ -19,12 +19,14 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	background: #33032d;
+	font-size: 20px;
+	background-color: #33032d;
+
 	
 }
 
 p {
-	font-size: 22px;
+	font-size: 20px;
 }
 
 /* ------------------------- */
@@ -35,12 +37,10 @@ p {
 	height: 100vh;
 	background-image: url(/img/Mary\ \(2\).gif);
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 1250px;
+	background-size: cover;
 	background-attachment: fixed;
-	
 }
-
+	
 .contenido-header .fondo {
 	width: 0%;
 	height: 100%;
@@ -165,9 +165,7 @@ p {
 	color: white;
 }
 
-.buttom {
-	color: aqua;
-}
+
 
 .card{
 	position: relative;
@@ -299,12 +297,14 @@ p {
 /* ------------------------- */
 .galeria {
 	margin-bottom: 60px;
+	
 }
 
 .galeria img {
-	height: 90%;
-	width: 90%;
+	height: 80%;
+	width: 80%;
 	object-fit: cover;
+	padding-left: 3px;
 }
 
 .contacto {
@@ -314,7 +314,10 @@ p {
 
 .redes-sociales {
 	padding: 10px;
-	background-color: var(--purple-light);
+	
+	height: 97%;
+	width: 97%;
+	
 	
 }
 
@@ -327,6 +330,9 @@ p {
 
 .redes-sociales img:hover {
 	transform: scale(1.2);
+}
+.redes-sociales a {
+	color: #f3f3f3;
 }
 
 /* ------------------------- */
