@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
+	
 }
 
 :root {
@@ -21,27 +21,28 @@ body {
 	min-height: 100vh;
 	font-size: 20px;
 	background-color: #33032d;
+	font-family: 'Open Sans', sans-serif;
 
 	
 }
 
 p {
-	font-size: 20px;
+	font-size: 22px;
 }
 
 /* ------------------------- */
 /* Header */
 /* ------------------------- */
 .contenido-header {
+	
 	width: 100%;
 	height: 100vh;
 	background-image: url(/img/Mary\ \(2\).gif);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
-	
 .contenido-header .fondo {
 	width: 0%;
 	height: 100%;
@@ -262,12 +263,11 @@ p {
 /* Separador */
 /* ------------------------- */
 .separador {
-	width: 150%;
-	height: 300px;
+	width: 100%;
+	height: 250px;
 	background-image: url('/img/accesorios\ eri.PNG');
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 1200px;
+	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 60px;
 	
@@ -305,7 +305,7 @@ p {
 	height: 80%;
 	width: 80%;
 	object-fit: cover;
-	padding-left: 3px;
+	
 }
 
 .contacto {
@@ -347,6 +347,11 @@ p {
 	.contenido-header .texto {
 		font-size: 60px;
 	}
+
+	
+.contenido-header .fondo{
+	font-size: 60px;
+}
 
 	.menu a {
 		font-size: 20px;
