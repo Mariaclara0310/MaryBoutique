@@ -477,7 +477,7 @@ header{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1500px){
 
     .container__cover{
         background-image: url("/img/Mary\ \(2\).gif");
