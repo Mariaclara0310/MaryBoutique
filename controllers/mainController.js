@@ -4,7 +4,7 @@ const controller = {
         return res.render('index');
     },
    
-    
 };
+
 
 module.exports = controller;
