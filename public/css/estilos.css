@@ -403,7 +403,7 @@ h6 {
    /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
 	position: fixed;
 	visibility: hidden;
 	opacity: 0;
@@ -433,7 +433,7 @@ h6 {
   .back-to-top.active {
 	visibility: visible;
 	opacity: 1;
-  }
+  } */
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -482,4 +482,14 @@ h6 {
 	.productos .titulo {
 		font-size: 30px;
 	}
+	.botonSubir {
+		max-width: 592px;
+		right: -450px;
+		position: relative;
+		z-index: 9;
+	}
+	.botonSubir:hover {
+		cursor: pointer;
+	}
+	
 }
