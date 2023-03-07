@@ -435,6 +435,31 @@ h6 {
 	opacity: 1;
   }
 
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.botonSubir {
+	background: #FEFFFE;
+	bottom: 40px;
+	border-radius: 100%;
+	right: 40px;
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	z-index: 9;
+}
+
+	.botonSubir:hover {
+		cursor: pointer;
+	}
+	
+
+	.botonSubir img {
+		border-radius: 100%;
+		width: 100%;
+	}
+
 
 /* ------------------------- */
 /* Mediaqueries */
